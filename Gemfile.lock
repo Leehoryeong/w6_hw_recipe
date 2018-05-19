@@ -235,7 +235,7 @@ DEPENDENCIES
   byebug
   cocoon (~> 1.2, >= 1.2.11)
   coffee-rails (~> 4.1.0)
-  devise (~> 4.4, >= 4.4.3)
+  devise
   haml (~> 5.0, >= 5.0.4)
   jbuilder (~> 2.0)
   jquery-rails

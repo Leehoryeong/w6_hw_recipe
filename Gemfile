@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'devise'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'paperclip', '~> 6.0'
 gem 'haml', '~> 5.0', '>= 5.0.4'
