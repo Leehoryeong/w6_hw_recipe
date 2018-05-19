@@ -1,24 +1,17 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
-
-
-Welcome to your Rails project on Cloud9 IDE!
-
-To get started, just do the following:
-
-1. Run the project with the "Run Project" button in the menu bar on top of the IDE.
-2. Preview your new app by clicking on the URL that appears in the Run panel below (https://HOSTNAME/).
-
-Happy coding!
-The Cloud9 IDE team
-
-
-## Support & Documentation
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
-To watch some training videos, visit http://www.youtube.com/user/c9ide
+<h1>메켄지 레시피 사이트 만들기</h1>
+<h2>전체적인 과정</h2>
+<p>전체적인 과정으로는 역시 메킨지를 따라가는 것이었다. 
+첫번째 모델을 생성해주고 그곳에 들어가야할 내용(제목 타이틀)을 넣어준뒤 전체적인 디자인을 작성해준다.그리고 CRUD에 맞춰서 차례차례 작성해준뒤 
+두번째 그때 그때 필요한 기능을 추가해준다 (여기서는 사진 추가기능) 세번째로는 하위 모델들을 추가해주어 한 post안에서 작성가능한 또다른 글들을 추가해준뒤
+마지막으로  devise를 통해서 로그인 기능을 추가해준다.</p>
+<h2>새로 안 내용</h2>
+<p>사진 추가기능은 정말로 신기했다. 언제 사진 넣는걸 배우려나 혼자서 궁금해하고 잇었는데 이번기회에 처음 그 과정을 접하게 되었고 gem기능을 통해서 넣는다는 것을 보게되었다. 아직 잘 사용하지는 못하겠지만 빨리 익혀가고 싶다.
+link_to 기능에 css입히는 방법을 몰랐었는데 class 지정을 해주는 것을 보면서 css적용하는 방법을 하나 배워간 느낌
+메킨지 강의에서 쓱삭쓱삭하고 페이지를 만들어가는데 따라하면서도 아직까지 모르겠는기능이 더 많고 혼자서 하라고하면 못할기능들이 너무 많다. 한시간 강의를 보고 6시간이 걸리는 내가 너무 슬프다 
+</p>
+<h2>오류 내용</h2>
+<p>첫번째 오류 : 이미지 파일 적용이 안됐다. install ImageMagick오류가 계속 나와서 해결하지 못하고 돌고돌다가 우리 대장님이 c9오류라는걸 알려주셨고 그덕에 해결할수 있엇다. 해결방법 : sudo apt-get update, sudo apt-get install imagemagick <br>
+두번째 오류 : 디바이스 충돌문제, devise 젬을 설치하고 적용하는 과정에서 rails generate devise:install 를 :을 빼놓고 rails generate devise install 라고 입력했다가 폭풍오류가 발생.. 서버 자체가 안열려서 애먹다가 또다시 다혜가 도와줘서 잘못 생성된 파일들을 전부 지우고 다시 처음부터 과정을 진행해 해결 할 수 있었다. <br>
+기타 오류 : 강의를 따라하면 되는 것이라 오류 날것이 많이 없었지만 대부분이 오타로 인한 오류 였다. 한글자 한글자가 굉장히 중요한 것이 코딩인것같다. 마음이 앞서가는 순간부터 엄청 조심해야하는 것 같다.
+ps. 밤늦게 빨래하다 도와준 다혜야 고마워 ㅠㅠ
+</p>
